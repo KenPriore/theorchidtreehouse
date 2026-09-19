@@ -51,9 +51,9 @@
 .krisel-quote{grid-column:1/-1;margin:34px 0 0;padding:34px 0 0;border-top:1px solid var(--line)}
 .krisel-quote blockquote{margin:0;font-family:Georgia,'Times New Roman',serif;font-size:clamp(28px,3.4vw,52px);line-height:1.15;letter-spacing:-.035em;color:var(--orange);max-width:18em}
 .krisel-quote figcaption{display:block;margin-top:18px;line-height:1.7}
-.lineage{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,1fr);gap:5%;margin-top:34px;padding-top:26px;border-top:1px solid var(--line)}
+.lineage{grid-column:1/-1;display:grid;grid-template-columns:repeat(2,1fr);gap:5%;margin-top:34px;padding-top:26px;border-top:1px solid var(--line)}
 .lineage h3{margin-top:8px}.lineage p{font-size:16px}.lineage .eyebrow{color:var(--orange)}
-.facts{grid-template-columns:.6fr 1.6fr 1.1fr .9fr}
+.facts{grid-template-columns:.6fr 1.6fr 1.1fr}
 .krisel-quote blockquote,.lineage h3,.lede{text-wrap:balance}
 .glimpse-side p:not(.lede)+p{margin-top:20px}
 .timeline-grid{grid-template-columns:repeat(3,1fr);gap:4.5%}
