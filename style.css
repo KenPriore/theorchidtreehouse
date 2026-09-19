@@ -136,6 +136,9 @@
 .reading a{text-decoration:none}.reading a:hover{text-decoration:underline}.reading .book{font-style:italic;color:var(--ink);font-family:inherit;letter-spacing:0}
 .story .section-label{justify-content:flex-start;gap:22px}.story .section-label .accent{width:92px;height:92px}
 @media(max-width:800px){.map-labels,.road-names{display:none}}
+.tract-grid article{justify-items:stretch}.tract-grid .text-link,.tract-grid .tnum,.tract-grid .sub{justify-self:start}
+.krisel-quote{display:grid;grid-template-columns:minmax(170px,250px) 1fr;column-gap:7%;align-items:center}.kq-photo{grid-row:1/3}.kq-photo img{width:100%;height:auto;display:block;filter:grayscale(1) contrast(1.02)}.kq-photo .eyebrow{display:block;margin-top:10px;font-size:11px}.krisel-quote blockquote{align-self:end}.krisel-quote figcaption{align-self:start}
+@media(max-width:620px){.krisel-quote{grid-template-columns:1fr;row-gap:24px}.kq-photo{grid-row:auto;max-width:230px}}
 /* ---- photo strip: drifts slowly, pauses on hover, drag or swipe to move ---- */
 .strip{padding:80px 0 84px 5%;background:var(--cream)}.strip-head{padding-right:5%;display:grid;grid-template-columns:1fr auto;align-items:end;column-gap:24px}.strip-head .eyebrow{grid-column:1/-1}.strip-ctl{display:flex;gap:12px}.strip-btn{background:none;color:var(--ink);cursor:pointer;font-family:inherit;padding:0}.strip-btn:hover{background:var(--ink);color:var(--paper)}.strip-head h3{margin:12px 0 0;font-size:clamp(28px,3vw,44px);font-weight:500;letter-spacing:-.035em;line-height:1.1;max-width:18em}
 .strip-track{display:flex;gap:18px;overflow-x:auto;margin-top:34px;padding-right:5%;scrollbar-width:none;-webkit-overflow-scrolling:touch}.strip-track::-webkit-scrollbar{display:none}
