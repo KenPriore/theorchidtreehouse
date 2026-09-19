@@ -66,6 +66,7 @@
 @media(max-width:540px){.facts{grid-template-columns:1fr 1fr}.facts div:last-child{grid-column:auto}.peel{height:320px;--p:42px;animation-name:peel-breathe-sm}.peel img{object-position:52% center}.peel:has(.peel-hit:hover),.peel:has(.peel-hit:focus-visible){--p:112px}.peel-hit{min-width:110px;min-height:110px}.peel-sheet{width:300px;height:214px}.peel-note span:first-child,.peel-note i{display:none}.peel-note span:last-child{border-top:0}.plan-note{margin-left:0;flex-basis:100%}.drawing{margin-top:40px}}
 /* ---- 01: more room to read ---- */
 .hero-sub{max-width:34em}
+@media(min-width:1100px){.hero{display:grid;grid-template-columns:auto minmax(0,1fr);column-gap:7%}.hero>*{grid-column:1/-1}.hero>h1{grid-column:1}.hero>.hero-bottom{grid-column:2;align-self:end;gap:36px}.hero-sub{max-width:31em;margin:0}.hero-bottom .round-link{white-space:nowrap;flex:none}}
 .story{grid-template-columns:minmax(110px,.45fr) 4fr;gap:48px}
 .story h2{font-size:clamp(38px,3.8vw,60px)}
 .story-main{grid-template-columns:1.05fr 1fr;gap:56px}
