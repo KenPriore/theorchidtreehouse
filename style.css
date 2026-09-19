@@ -70,7 +70,7 @@
 .story h2{font-size:clamp(38px,3.8vw,60px)}
 .story-main{grid-template-columns:1.05fr 1fr;gap:56px}
 .story-copy p{max-width:34em}
-.lineage{gap:6%;margin-top:56px;padding-top:34px}
+.lineage{gap:26px 6%;margin-top:56px;padding-top:34px}
 .lineage p{font-size:17px;line-height:1.7;max-width:32em}
 .lineage h3{margin-bottom:14px}
 /* ---- 02: one plan, three neighborhoods ---- */
@@ -115,7 +115,8 @@
 .units h3{margin:10px 0 14px}.units p+p{margin-top:16px}.units ul{margin:0;padding-left:1.1em}.units li{margin-bottom:10px}
 .units p,.units li{font-size:16.5px;line-height:1.7;max-width:36em}.invite{margin-top:20px}
 /* ---- 03: typeset clippings ---- */
-.clips{grid-column:1/-1;display:grid;grid-template-columns:1fr 1.4fr;gap:6%;margin-top:70px;align-items:start}
+.archive{row-gap:70px}
+.clips{grid-column:1/-1;display:grid;grid-template-columns:1fr 1.4fr;gap:34px 6%;margin-top:0;align-items:start}
 .clip{background:#efe8d8;padding:26px 28px;box-shadow:0 12px 28px #302d241f;font-family:Georgia,'Times New Roman',serif;color:#2b2a26}
 .clip-ad{text-align:center;transform:rotate(-1.2deg)}
 .clip-ad b{display:block;font:700 24px Arial,Helvetica,sans-serif;letter-spacing:.06em}
