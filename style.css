@@ -135,6 +135,11 @@
 .reading a{text-decoration:none}.reading a:hover{text-decoration:underline}.reading .book{font-style:italic;color:var(--ink);font-family:inherit;letter-spacing:0}
 .story .section-label{justify-content:flex-start;gap:22px}.story .section-label .accent{width:92px;height:92px}
 @media(max-width:800px){.map-labels,.road-names{display:none}}
+/* ---- photo strip: drifts slowly, pauses on hover, drag or swipe to move ---- */
+.strip{padding:80px 0 84px 5%;background:var(--cream)}.strip-head{padding-right:5%}.strip-head h3{margin:12px 0 0;font-size:clamp(28px,3vw,44px);font-weight:500;letter-spacing:-.035em;line-height:1.1;max-width:18em}
+.strip-track{display:flex;gap:18px;overflow-x:auto;margin-top:34px;padding-right:5%;scrollbar-width:none;-webkit-overflow-scrolling:touch}.strip-track::-webkit-scrollbar{display:none}
+.strip-track img{height:clamp(230px,33vw,460px);width:auto;flex:none;display:block;filter:saturate(.86)}
+@media(max-width:800px){.strip{padding:60px 0 60px 6%}}
 /* ---- anchor logo (static): two fan palms behind the double gable ---- */
 .logo{width:46px;height:46px;flex:none;overflow:visible}
 .logo path{fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
