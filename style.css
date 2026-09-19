@@ -133,6 +133,8 @@
 .reading li{border-top:1px solid var(--line);padding:14px 0;font-size:15px}
 .reading li span{display:block;font-size:13px;color:#6d7a71;margin-top:2px}
 .reading a{text-decoration:none}.reading a:hover{text-decoration:underline}.reading .book{font-style:italic;color:var(--ink);font-family:inherit;letter-spacing:0}
+.story .section-label{justify-content:flex-start;gap:22px}.story .section-label .accent{width:92px;height:92px}
+@media(max-width:800px){.map-labels,.road-names{display:none}}
 /* ---- anchor logo (static): two fan palms behind the double gable ---- */
 .logo{width:46px;height:46px;flex:none;overflow:visible}
 .logo path{fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
@@ -154,3 +156,4 @@
 @media(max-width:800px){.story{grid-template-columns:1fr;gap:28px}.story-main{gap:30px}.tracts-head{grid-template-columns:1fr}.tract-grid{grid-template-columns:1fr;gap:36px}.units{grid-template-columns:1fr;gap:40px}.clips{grid-template-columns:1fr;gap:34px}.reading ul{grid-template-columns:1fr}.road-names text{font-size:14px}.map-labels text{font-size:19px}}
 @media(max-width:540px){.story-main{grid-template-columns:1fr}.logo{width:38px;height:38px}.accent{width:88px;height:88px}.reading{padding:50px 6% 20px}}
 @media(prefers-reduced-motion:reduce){.peel,.porthole,.accent *,.home-pulse,.traveler{animation:none!important}.peel{--p:60px}}
+@media(min-width:801px){.glimpse{grid-template-columns:13fr 11fr}}
