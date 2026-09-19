@@ -126,6 +126,8 @@
 .clip cite{display:block;margin-top:16px;font:500 11px Arial,Helvetica,sans-serif;letter-spacing:.1em;font-style:normal}
 /* ---- further reading ---- */
 .reading{padding:70px 5% 30px}
+.reading.krisel{padding-bottom:0}.krisel-intro{display:grid;grid-template-columns:minmax(200px,1fr) 2fr;gap:20px 6%;margin:22px 0 44px;align-items:start}.krisel-intro h3{margin:0;font-size:clamp(26px,2.6vw,38px);font-weight:500;letter-spacing:-.03em;line-height:1.1}.krisel-intro p{margin:0;font-size:16.5px;line-height:1.7;max-width:40em}.reading .watch{display:block}
+@media(max-width:800px){.krisel-intro{grid-template-columns:1fr}}
 .reading ul{list-style:none;padding:0;margin:26px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:0 6%}
 .reading li{border-top:1px solid var(--line);padding:14px 0;font-size:15px}
 .reading li span{display:block;font-size:13px;color:#6d7a71;margin-top:2px}
