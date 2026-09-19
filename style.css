@@ -136,7 +136,7 @@
 .story .section-label{justify-content:flex-start;gap:22px}.story .section-label .accent{width:92px;height:92px}
 @media(max-width:800px){.map-labels,.road-names{display:none}}
 /* ---- photo strip: drifts slowly, pauses on hover, drag or swipe to move ---- */
-.strip{padding:80px 0 84px 5%;background:var(--cream)}.strip-head{padding-right:5%}.strip-head h3{margin:12px 0 0;font-size:clamp(28px,3vw,44px);font-weight:500;letter-spacing:-.035em;line-height:1.1;max-width:18em}
+.strip{padding:80px 0 84px 5%;background:var(--cream)}.strip-head{padding-right:5%;display:grid;grid-template-columns:1fr auto;align-items:end;column-gap:24px}.strip-head .eyebrow{grid-column:1/-1}.strip-ctl{display:flex;gap:12px}.strip-btn{background:none;color:var(--ink);cursor:pointer;font-family:inherit;padding:0}.strip-btn:hover{background:var(--ink);color:var(--paper)}.strip-head h3{margin:12px 0 0;font-size:clamp(28px,3vw,44px);font-weight:500;letter-spacing:-.035em;line-height:1.1;max-width:18em}
 .strip-track{display:flex;gap:18px;overflow-x:auto;margin-top:34px;padding-right:5%;scrollbar-width:none;-webkit-overflow-scrolling:touch}.strip-track::-webkit-scrollbar{display:none}
 .strip-track img{height:clamp(230px,33vw,460px);width:auto;flex:none;display:block;filter:saturate(.86)}
 @media(max-width:800px){.strip{padding:60px 0 60px 6%}}
