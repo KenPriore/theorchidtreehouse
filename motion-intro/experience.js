@@ -74,6 +74,8 @@ if(br<.95&&calm>.5){
  vec2 sampleQ=vec2(.929+sin(lon+rotation)*ring*.0295,q.y);
  c=texture2D(second,sampleQ).rgb;
 }
+// The title is painted into the artwork; once the entrance begins it dissolves into the wall so no lettering slides past during the zoom.
+if(enter>=0.){float veil=box(q,vec2(.03,.13),vec2(.36,.47),.03)*smoothstep(0.,.3,enter);vec3 wall=(texture2D(second,vec2(.06,.07)).rgb+texture2D(second,vec2(.12,.09)).rgb+texture2D(second,vec2(.18,.07)).rgb)/3.;c=mix(c,wall,veil);}
 // Coral door swings inward on its left hinge while the viewpoint approaches.
 if(enter>=0.){float swing=smoothstep(0.,.65,enter);float left=.555,right=.587;float top=.394+(q.x-left)*.55;if(q.x>left&&q.x<right&&q.y>top&&q.y<.675){float width=(right-left)*max(.07,cos(swing*1.48));c=vec3(.965,.937,.866);if(q.x<left+width){vec2 sampleQ=vec2(left+(q.x-left)/max(.07,cos(swing*1.48)),q.y);c=texture2D(second,sampleQ).rgb*(1.-swing*.20);}}}
 return c;}
